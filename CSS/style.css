@@ -1,0 +1,216 @@
+@charset "utf-8";
+/* CSS Document */
+
+.validationError {
+	color:red;
+	font-weight: bold;
+}
+
+* {
+	font-family:'Open Sans', sans-serif;
+	color:#003366;
+}
+
+body {
+	background-color:#E9E9E9;  /*grey*/
+}
+
+h1 {
+	font-size:36px;
+}
+
+h1, h4 {
+	margin-top:1em;
+	margin-bottom:1em;
+}
+
+p {
+	font-size:16px;
+	line-height:150%;
+}
+
+label {
+	padding-right:10px;
+}
+
+.button {
+    background-color:#4CAF50; /* Green */
+    border:none;
+    color:white;
+    padding:10px 20px;
+    text-align:center;
+    text-decoration:none;
+    /*display:inline-block;*/
+    font-size:16px;
+}
+
+.button:hover {
+    background-color:#4CAF50; /* Green */
+    color:white;
+	font-weight:bold;
+}
+
+.linkButton {
+	color:#ffffff;
+	padding:10px 20px;
+	background-color:#4CAF50; /* Green */
+	border:0;
+}
+
+.blueShade {
+	/*background-color:#8FDAF1;*/
+	background-color:#C6E2FF;
+	
+}
+
+.preserveWhite {
+	white-space:pre;
+}
+
+.servicesTxt {
+	padding-left:50px;
+}
+
+.colPaddingLeft {
+	padding-left:2em;	
+}
+
+.colPaddingLeftRightHome {
+	padding-left:1em;	
+}
+
+.colPaddingTop {
+	padding-top:25px;
+}
+
+.colPaddingBottom {
+	padding-bottom:20px;
+}
+
+	
+.navBarMargin {
+	margin-top:15px;
+	margin-bottom:50px;
+}
+
+.navbarBackground {
+	background-color:#C6E2FF;
+}
+
+.marginTopBottom2em {
+	margin-top:2em;
+	margin-bottom:2em;
+}
+
+.marginTopBottom1point5em {
+	margin-top:1.5em;
+	margin-bottom:1.5em;
+}
+
+.footerStyle {
+	margin-top:5em;
+	margin-bottom:1em;
+	background-color:#C6E2FF;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.center {
+	text-align:center;
+}
+
+li {
+    float:left;
+	list-style-type:none;
+}
+
+a {
+    display:block;
+	text-decoration:none;
+}
+
+a:hover { 
+	font-weight:bold;
+}
+
+a:visited, a.links:visited {
+    text-decoration:none;
+}
+
+a.links:hover{
+	font-size:17px;
+}
+
+a.emailLink {
+	color:blue;
+}
+
+a.linkDisplay{
+	text-decoration:underline;
+}
+.banner_image, .logo_image {
+	width:100%;
+	height:auto;
+	margin-top:0.5em;
+	margin-bottom:0.4em;
+} 
+
+.homepage_service_image {
+	width:100%;
+	height:auto;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.service_img {
+	width:100%;
+	height:auto;
+}
+
+.error {
+	color:#C00;
+	font-weight:bold;
+}
+
+.success {
+	color:#4CAF50;  /*green*/
+	font-weight:bold;
+}
+
+#dalton {
+	font-size:13px;
+	width:100%;
+	border-collapse:collapse;
+}
+
+#dalton td, th {
+	font-size:13px;
+	border:1px solid #082DBF;
+	padding:4px 4px 4px 4px;
+}
+
+#dalton th {
+	font-size:1.1em;
+	text-align:left;
+	padding-top:5px;
+	padding-bottom:5px;
+	background-color:#3E81D8;  /*#A7C942;*/
+	color:#ffffff;
+}
+
+#projectStaffingSelMenu {
+	font-size:20px;
+}
+
+.tdNoWrap {
+	white-space:nowrap;
+}
+
+
+
+
+/*#dalton tr.alt td 
+{
+color:#000000;
+background-color:#EAF2D3;
+}*/

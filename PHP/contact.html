@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--
+        Name:	Kirstine Brørup Nielsen
+        ID:		100527988
+        Date:	02.04.2016
+        Web Programming - Assignment Part 2 - DALTON IT CONSULTING
+    -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<!--link external stylesheets-->
+<link rel="stylesheet" type="text/css" href="../CSS/grid.css"/>
+<link rel="stylesheet" type="text/css" href="../CSS/style.css"/>
+<link rel="icon" href="../ASSETS/logoDaltonTab.jpg"/>
+<title>Dalton IT Consulting</title>
+</head>
+
+<body>
+
+<div class="grid"><!--start grid-->
+
+<div class="mainROW">
+	<header>
+    	<div class="row">
+        	<div class="col_1"></div>
+        	<div class="col_2">
+            	<img src="../ASSETS/logoDaltonBanner.jpg" class="logo_image" alt="Logo" />
+            </div>
+            <div class="col_8">
+                	<img src="../ASSETS/banner.jpg" class="banner_image" alt="Banner image" />
+            </div>
+            <div class="col_1"></div>
+        </div>
+    </header>
+        
+    
+    <section>
+    	<div class="row">
+        	<div class="col_1 navbarBackground"></div>
+            <div class="col_10 navbarBackground">
+                <div class="navBarMargin">
+                    <ul>
+                        <li class="col_2 "><center><a href="../index.html">Home</a></center></li>
+                        <li class="col_2 "><center><a href="services.html">Services</a></center></li>
+                        <li class="col_2 "><center><a href="consultants.php">Consultants</a></center></li>
+                        <li class="col_2 "><center><a href="projects.php">Projects</a></center></li>
+                        <li class="col_2 "><center><a href="projectStaffing.php">Projects~Consultants</a></center></li>
+                        <li class="col_2 "><center><a href="contact.html">Contact Us</a></center></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col_1 navbarBackground"></div>
+        </div>
+    
+    	<div class="row">
+        	<div class="col_1"></div>
+            <div class="col_10">
+            	<h1>Contact Us</h1>
+               	<h4>Please fill out the form and press Send Details</h4>
+                <div class="row">
+                    <div class="col_7">
+                    	
+                        <form action="" method="post">
+                            <div class="row marginTopBottom1point5em">
+                    			<div class="col_3"><label for="firstName">First name</label></div>
+                    			<div class="col_9"><input type="text" name="firstName" id="firstName" size="35" value=""/></div>
+                            </div>   
+                               
+                            <div class="row marginTopBottom1point5em">
+                            	<div class="col_3"><label for="lastName">Last name</label></div>
+                                <div class="col_9"><input type="text" name="lastName" id="lastName" size="35" value=""/></div>
+                            </div>   
+                               
+                            <div class="row marginTopBottom1point5em">
+                            	<div class="col_3"><label for="emailInput">Email</label></div>
+                                <div class="col_9"><input type="email" name="emailInput" id="emailInput" size="35" value=""/></div>
+                            </div>   
+                               
+                            <div class="row marginTopBottom1point5em">
+                            	<div class="col_3"><label for="selSubject">Choose subject</label></div>
+                                <div class="col_9">
+                                    <select name="selSubject" id="selSubject" size="1">
+                                        <option value="Other">Other</option>
+                                        <option value="Applications Management">Applications Management</option>
+                                        <option value="Enterprise Integration">Enterprise Integration</option>
+                                        <option value="Analytics &amp; Information Management">Analytics &amp; Information Management</option>
+                                        <option value="Infrastructure Management">Infrastructure Management</option>
+                                    </select>
+                                </div>
+                            </div> 
+                               
+                            <div class="row marginTopBottom1point5em">
+                            	<div class="col_3"><label for="message">Message</label></div>
+                                <div class="col_9"><textarea name="message" id="message" rows="4" cols="40"></textarea></div>
+                            </div> 
+                               
+                            <div class="row marginTopBottom1point5em">
+                            	<div class="col_3"><label for="newsletter">Check to receive our newsletter</label></div>
+                                <div class="col_9"><input type="checkbox" name="newsletter" id="newsletter" value="yes"/></div>
+                            </div> 
+                               
+                            <div class="row marginTopBottom1point5em">
+                            	<div class="col_3">Current client?</div>
+                                <div class="col_9 preserveWhite"><input type="radio" name="radCurrentClient" id="radCurrentClientYes" value="Y"/>  Yes         	<input type="radio" name="radCurrentClient" id="radCurrentClientNo" value="N" checked="checked"/>  No</div>
+                            </div>                            
+                            <br/>
+                               
+                            <div class="row">
+                            	<div class="col_3"><input  class="button" type="submit" name="submitButton" id="submitButton" value="Send Details"/></div>
+                                <div class="col_9"><input  class="button" type="reset" name="resetButton" id="resetButton" value="Reset Form"/></div>
+                            </div>
+                        </form>
+                        
+                    </div>
+                    <div class="col_5 colPaddingLeft">
+                    
+                    	<div class="row">
+                        	<div class="col_2 blueShade"></div>
+                        	<div class="col_9 blueShade">
+                                <h3 class="colPaddingTop">Contact details</h3>
+                                <h4>Dalton IT Consulting</h4>
+                                <p>101 Dalton Rd</p>
+                                <p>Dalton 9999</p>
+                                <p>Australia</p>
+                                <br/>
+                                <p>Ph: +61 123 456 789</p>
+                                <p class="colPaddingBottom">Email: dalton@daltonitconsulting.com</p> <br/>    
+                            </div>
+                            <div class="col_1"></div>
+                    	</div>          
+                    </div>
+                </div>
+            </div>
+            <div class="col_1"></div>
+        </div>
+    </section>
+</div>    
+    
+    <footer>
+    	<div class="row footerStyle">
+        	<div class="col_1"></div>
+            <div class="col_10">
+                <div class="center">
+                    <strong>Dalton IT Consulting</strong> ~ 101 Dalton Rd ~ Dalton 9999 ~ Australia
+                    <br/>
+                    Ph: +61 123 456 789 ~ Email: dalton@daltonitconsulting.com
+                </div>
+            </div>
+            <div class="col_1"></div>
+        </div>
+    </footer>
+
+</div><!--end grid-->
+
+</body>
+</html>
+
